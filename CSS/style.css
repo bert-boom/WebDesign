@@ -1,4 +1,5 @@
 
+
 body{
     display: flex;
     flex-direction: column;
@@ -47,4 +48,68 @@ body{
     text-align: center;
 }
 
+input
+    {
+        height: 300px;
+        width:500px;
+        text-align: left;
+        
+    }
 
+
+@media (max-width: 760px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .Links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;            
+        width: 100%;                   
+        padding: 10px;               
+        box-sizing: border-box;       
+    }
+    
+    .Item
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;            
+        width: 250px;                   
+        padding: 10px;               
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+    #Items
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        padding: 40px;
+    }
+    
+    
+    #Form
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;            
+        width: 100%;                   
+        padding: 10px;  
+        padding-top: 50px;             
+        text-align: center;
+    }
+
+    input
+    {
+        height: 300px;
+        width:250px;
+        text-align: left;
+        
+    }
+}
