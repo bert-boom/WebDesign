@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="/CSS/coding-made-fin.css">
 </head>
 <body style="overflow: hidden;">
-    <div style="width:600px; background-color: #1C304F; height:auto; margin-bottom: 40px; margin-top: 10px; border-radius: 40px; ">
-        <h1 style="text-align: center; font-size: 40px; color: white; padding: 20px;" >GIGGLE CODE ACADEMY</h1>
+    <div class="GiggleCode">
+        <h1>GIGGLE CODE ACADEMY</h1>
     </div>
 
     <div class="Links">
@@ -19,10 +19,43 @@
         <a class="Link" href="/HTML/contact.html">Contact Us</a>
     </div>
 
-    <!--Images Here-->
-    <img style="position: absolute; left: -40px; top: 380px; transform: rotate(10deg); width:500px;" src="./IMAGES/Robot1.png"/>
 
-    <img style="position: absolute; left: 800px; top: 270px; transform: rotate(10deg); width:800px;" src="./IMAGES/Clown.png"/>
+    <div class="SideButtons">
+        <form>
+            <label for="home" onclick="navigate('/index.html')">
+                <input type="radio" id="home" name="radio" checked>
+                <span>Home</span>
+            </label>
+            <label for="products" onclick="navigate('/HTML/product.html')">
+                <input type="radio" id="products" name="radio">
+                <span>Products</span>
+            </label>
+            <label for="about" onclick="navigate('/HTML/about-us.html')">
+                <input type="radio" id="about" name="radio">
+                <span>About Us</span>
+            </label>
+            <label for="contact" onclick="navigate('/HTML/contact.html')">
+                <input type="radio" id="contact" name="radio">
+                <span>Contact Us</span>
+            </label>
+        </form>
+    </div>
+
+    <script>
+        function navigate(url) {
+    window.location.href = url;
+}
+
+    </script>
+    
+
+
+
+
+    <!--Images Here-->
+    <img class="responsive-image robot" src="./IMAGES/Robot1.png"/>
+
+    <img class="responsive-image clown" src="./IMAGES/Clown.png"/>
    
     <div class="container">
         <div class="box box1">Coding Made</div>

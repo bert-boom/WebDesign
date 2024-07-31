@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title>Projects</title>33
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
@@ -17,6 +17,34 @@
         <a class="Link" href="/HTML/about-us.html">About Us</a>
         <a class="Link" href="/HTML/contact.html">Contact Us</a>
     </div>
+
+    <div class="SideButtons">
+        <form>
+            <label for="home" onclick="navigate('/index.html')">
+                <input type="radio" id="home" name="radio">
+                <span>Home</span>
+            </label>
+            <label for="products" onclick="navigate('/HTML/product.html')">
+                <input type="radio" id="products" name="radio" checked>
+                <span>Products</span>
+            </label>
+            <label for="about" onclick="navigate('/HTML/about-us.html')">
+                <input type="radio" id="about" name="radio">
+                <span>About Us</span>
+            </label>
+            <label for="contact" onclick="navigate('/HTML/contact.html')">
+                <input type="radio" id="contact" name="radio">
+                <span>Contact Us</span>
+            </label>
+        </form>
+    </div>
+
+    <script>
+        function navigate(url) {
+    window.location.href = url;
+}
+
+    </script>
 
 
     <div id="Items">
