@@ -1,5 +1,7 @@
 
 
+
+
 body{
     display: flex;
     flex-direction: column;
@@ -21,6 +23,7 @@ body{
 
 .GiggleCode h1
     {
+        font-family: 'Archivo Black' ;
         text-align: center;
         font-size: 40px; 
         color: white; 
