@@ -69,9 +69,28 @@ body{
     flex-direction: column;
     align-items: center;            
     width: 30%;                   
-    padding: 20px;               
+    padding: 15px;               
     box-sizing: border-box;
     text-align: center;
+
+    background-color: #365687;
+    border-radius: 21px;
+    margin: 10px;
+}
+
+.Item h1
+{
+    font-size: 25px;
+    background-color: #1C304F;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ddd;
+}
+
+.Item p
+{
+    font-size: 20px;
+    color:#ffffff
 }
 
 #Items
@@ -79,7 +98,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;  
-    padding: 40px;
+    padding: 20px;
 }
 
 
@@ -124,12 +143,14 @@ form
 form h1
 {
     font-size: large;
+    color: white;
 }
 
 form p
 {
     font-size: 20px;
     font-weight: bold;
+    color: white;
 }
 
 textarea {
