@@ -92,17 +92,17 @@ body{
 }
 
 .robot {
-    left: 5%;
-    top: 80%;
+    left: -10%;
+    top: 140%;
     width: 30vw;
-    transform: translateY(-50%) rotate(-10deg);
+    transform: rotate(20deg);
 }
 
 .clown {
-    right: 5%;
-    top: 80%;
+    right: -10%;
+    top: 140%;
     width: 40vw;
-    transform: translateY(-50%) rotate(10deg);
+    transform: rotate(-30deg);
 }
 
 form
